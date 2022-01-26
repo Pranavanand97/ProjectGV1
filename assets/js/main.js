@@ -3,7 +3,7 @@
 var jobsData =[];
 
 var ourRequest = new XMLHttpRequest();
-ourRequest.open('GET', 'https://script.google.com/u/0/home/projects/1iYAaGeuotilSY9TDN3VfE1QL14MxYF97jngvZfKi1IUAafmWZRPex972/edit');
+ourRequest.open('GET', 'https://script.google.com/u/0/home/projects/1oHC4I2HYWg0Ylll0SgeuzYj679ySPnkoMOsytV-oVNPEaIx3Fjtp0eNj/executions');
 ourRequest.onload = function() {
   if (ourRequest.status >= 200 && ourRequest.status < 400) {
     const data = JSON.parse(ourRequest.responseText);
